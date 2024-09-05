@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+
+    <title>Shantanu Portfolio</title>
+</head>
+
+<body>
+
+    <header>
+        <div id="header">
+            <div class="container">
+                <nav class="nav">
+                    <h1>Shantanu</h1>
+                    <ul id="sidemenu">
+                        <li class="home"><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Web Developer</p>
+                    <h1>Hi, I'm <span>Shantanu</span> <br> From Mumbai.</h1>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <!-- <img src="" alt=""> -->
+                        <lord-icon id="person" src="https://cdn.lordicon.com/gkgkfbzm.json" trigger="in"
+                            state="in-reveal" colors="primary:#7eddf2,secondary:#08a88a">
+                        </lord-icon>
+
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, consequuntur est. Unde quis
+                            qui
+                            harum nihil ullam quaerat eum quisquam doloremque voluptatibus sequi. Earum nostrum
+                            doloremque
+                            quam officia, ducimus ut, itaque assumenda aliquid at fuga adipisci molestiae beatae dolorem
+                            perferendis voluptatibus et. Expedita, aliquam aut officiis sequi alias fugiat numquam.
+                        </p>
+
+                        <div class="tab-title">
+                            <p class="tab-link active-link" onclick="ontab('skills')">Skills</p>
+                            <p class="tab-link" onclick="ontab('experience')">Experience</p>
+                            <p class="tab-link" onclick="ontab('education')">Education</p>
+                        </div>
+
+                        <div id="skills" class="tab-content active-tab">
+                            <ul>
+                                <li><span>Programing Languages</span><br>
+                                    Python, Java, C, JavaScript, PHP
+                                </li>
+                                <li><span>Front-End</span><br>
+                                    HTML5, CSS3, JavaScript, PHP
+                                </li>
+                                <li><span>Back-End</span><br>
+                                    Node.js, Express.js
+                                </li>
+                                <li><span>Database</span><br>
+                                    MySql, MongoDB
+                                </li>
+                                <li><span>Tools</span><br>
+                                    Microsoft Power BI, Tableau, Canvas, Figma, VS Code
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="experience" class="tab-content">
+                            <ul>
+                                <li><span>Frontend Developer (Intern) - Tech2Edge</span><br><br>
+                                    I developed the Frontend of the Fini Kids website, creating a multi-step form using
+                                    HTML, CSS,
+                                    JavaScript, and Bootstrap. The website features products related to children.
+                                    Additionally, I utilized
+                                    Figma and Miro for design and planning. <br><br>
+                                    I worked on the HAX SECURITY website, where we used Bootstrap components, HTML, CSS,
+                                    and
+                                    JavaScript. We also utilized Miro for design. This website offers courses related to
+                                    cybersecurity. <br><br>
+                                    I also created the frontend for an OTT platform that fetches images, names, and
+                                    titles
+                                    from a API. I
+                                    used JavaScript with async/await for data fetching and Bootstrap for the sliders.
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div id="education" class="tab-content">
+                            <ul>
+                                <li><span>Bachelor of Science (Computer Science) 2021 - 2024</span><br>
+                                    Nagindas Khandwala Colege (Autonomous) ------------- CGPA - 8.70
+                                </li>
+                                <li><span>Location</span><br>
+                                    Malad (West)
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title services-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro repellendus ducimus labore
+                            ipsa
+                            ea, sunt veritatis adipisci necessitatibus. Accusantium voluptatem, incidunt odit mollitia
+                            debitis non?
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro repellendus ducimus labore
+                            ipsa
+                            ea, sunt veritatis adipisci necessitatibus. Accusantium voluptatem, incidunt odit mollitia
+                            debitis non?
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro repellendus ducimus labore
+                            ipsa
+                            ea, sunt veritatis adipisci necessitatibus. Accusantium voluptatem, incidunt odit mollitia
+                            debitis non?
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Portfolio -->
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title services-title">My work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="Sky.jpg" alt="">
+                        <div class="layer">
+                            <h3>Social Media</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum accusamus
+                                perferendis
+                                molestiae quidem quas nostrum ratione quam vero quos itaque impedit sequi, vitae soluta
+                                error.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Sky.jpg" alt="">
+                        <div class="layer">
+                            <h3>Social Media</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum accusamus
+                                perferendis
+                                molestiae quidem quas nostrum ratione quam vero quos itaque impedit sequi, vitae soluta
+                                error.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Sky.jpg" alt="">
+                        <div class="layer">
+                            <h3>Social Media</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum accusamus
+                                perferendis
+                                molestiae quidem quas nostrum ratione quam vero quos itaque impedit sequi, vitae soluta
+                                error.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact -->
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact me</h1>
+                        <p><i class="fa-solid fa-envelope"></i> shantanuvishwakarma67@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> 0123456789</p>
+                        <div class="social-icon">
+                            <a href="https://www.instagram.com/shantanu_vishwakarma_?igsh=b2RvNDNwNXJ0b2xz"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/shantanu67"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/ShantanuVishwakarma67"><i class="fa-brands fa-github"></i></a>
+                            <a href="mailto:shantanuvishwakarma67@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+
+                        </div>
+                        <a href="Shantanu Vishwakarma Resume.pdf" download class="btn">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form id="myForm" action=""> 
+                            <input id="name" class="form-pop" type="text" name="Name" placeholder="Enter name" required>
+                            <input id="email" class="form-pop" type="email" name="Email" placeholder="Enter email" required>
+                            <textarea class="form-pop" name="Message" rows="6" placeholder="Your message"></textarea>
+                            <div id="message">Thank you for your response!</div>
+                            <button type="submit" class="btn btn-2">Submit</button>
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="scroll-container">
+            <p class="copyright">Copyright &copy; Shantanu Vishwakarma. All rights reserved.</p>
+
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
